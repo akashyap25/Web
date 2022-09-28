@@ -73,7 +73,7 @@ function Swap(){
 }
 
 
-
+window.onload=Calculate();
 
 
 document.getElementById("swap").addEventListener("click",Swap);
