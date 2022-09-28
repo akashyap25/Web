@@ -2,7 +2,7 @@
 const firstCurrency = document.getElementById("first-cur");
 const secondCurrency = document.getElementById("second-cur");
 
-
+time();
 const amount = document.getElementById("amount");
 const result = document.getElementById("output");
 const url = 'https://v6.exchangerate-api.com/v6/0265b98fdb7079c748595f24/latest/';
@@ -34,31 +34,31 @@ function Calculate(){
     
      });
 
-
-
-     
-    
 };
 
+function time(){
+  var today= new Date();
+
+  var day = today.getDate();
+  var month = today.toLocaleString('default', { month: 'long' });
+  
+  var year= today.getFullYear();
+  
+  var hour= today.getHours();
+  var minute= today.getMinutes();
+  
+  
+  document.getElementById("date-").innerHTML=month +" "+ day +", "+year;
+  
+  document.getElementById("-time").innerHTML=hour +":"+ minute+ " "+ "IST" ;
+  setTimeout("time()",100)
+}
 
 
 
-var today= new Date();
-
-var day = today.getDate();
-var month = today.toLocaleString('default', { month: 'long' });
-
-var year= today.getFullYear();
-
-var hour= today.getHours();
-var minute= today.getMinutes();
 
 
 
-
-document.getElementById("date-").innerHTML=month +" "+ day +", "+year;
-
-document.getElementById("-time").innerHTML=hour +":"+ minute+ " "+ "IST" ;
 
 function Swap(){
     const Temp= firstCurrency.value;
