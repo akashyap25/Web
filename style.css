@@ -1,0 +1,275 @@
+body{
+      background-color: rgb(207, 253, 219);
+      text-align: center;
+      margin: 70px  30px 0px 30px;
+   
+     
+     
+}
+h1{ 
+    color: #fff;
+    font-size: 4rem;
+}
+p{
+    color: #fff;
+    font-size: 2rem; 
+}
+
+.top{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.container{
+    margin-top: 100px;
+    margin-bottom: 200px;
+   
+}
+.elements{
+    background-color: #12a286;
+    height: 1000px;
+  
+   
+   
+}
+
+/* navigation bar */
+.navbar{
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+
+/* mid */
+
+.mid{
+    display: flex;
+    padding-bottom: 30px;
+    
+   }
+
+.text{
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+
+.date-time{
+   
+    font-size: xx-large;
+    font-size: 2em;
+    color: #fff;
+   
+    text-align: right;
+   
+   
+}
+.clock{
+    width: 20%;
+    margin-top: 40px;
+  
+   
+}
+
+
+
+/* converter */
+
+.currency{
+    background-color: white;
+    height: 300px;
+    width: 90%;
+    margin-left: 100px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 95px;
+    margin-top: 30px;
+
+
+   
+
+}
+
+
+#amount{
+   font-size: 3rem;
+   width: 20%;
+   border-top: transparent;
+   border-left: transparent;
+   border-right: transparent;
+ 
+  padding: 0.5%;
+   margin-right: 10px;
+   height: 75px;
+   background-color:  #fff;
+   color: #000;
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+}
+#first-cur{
+    font-size: 3rem;
+    width: 25%;
+    
+   margin-right: 10px;
+   height: 75px;
+   border-top: transparent;
+   border-left: transparent;
+   border-right: transparent;
+   background-color:  #fff;
+   color: #000;
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+}
+#second-cur{
+    font-size: 3rem;
+    width: 25%;
+   
+   margin-right: 10px;
+   height: 75px;
+   border-top: transparent;
+   border-left: transparent;
+   border-right: transparent;
+   background-color:  #ffffff;
+   color: #000;
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+
+}
+#output{
+    font-size: 3rem;
+    width: 20%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+  
+   padding: 0.5%;
+    margin-right: 10px;
+    height: 75px;
+    background-color:  #fff;
+    color: #000;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#bottom{
+    margin-top: 50px;
+    margin-left: 300px;
+    font-weight: 600;
+    font-size: 2em;
+    color: #000;
+   
+ 
+}
+#result{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+#rateshow1{
+    font-size: 1.5rem;
+}
+
+#swap{
+    background-color: navy;
+    clip-path: circle();
+
+}
+
+.rateshow-bottom{
+    display: flex;
+    font-weight: 600;
+    font-size: 2em;
+    color: #fff;
+    margin: 20px;
+    margin-left: 100px;
+
+
+}
+#rateshow2{
+    margin-right: 50px;
+}
+#rateshow3{
+    margin-right: 50px;
+}
+#rateshow4{
+    margin-right: 50px;
+}
+
+
+.btn{
+   background-color:#020b2a ; 
+   color: #fff;
+   font-size: 2em;
+  margin-left: 80%;
+}
+   
+.extra{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+.next-page{
+    background-color: #12a286;
+    height: fit-content;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.copyright{
+    letter-spacing: 2px;
+    font-size: 2em;
+
+    padding-top: 70px;
+}
+.img{
+    width: fit-content;
+}
+.graph{
+    padding-bottom: 30px;
+}
+  
+
+
+
+
+/*<button class="btn" role="button" id="swap" type="button"><span class="text">Swap</span></button>
+
+
+const currency2=getElementById("USD");
+const currency3=getElementById("IND");
+
+const currency5=getElementById("EUR");
+const currency6=getElementById("BTC");
+
+
+
+*/
