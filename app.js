@@ -2,6 +2,11 @@
 const firstCurrency = document.getElementById("first-cur");
 const secondCurrency = document.getElementById("second-cur");
 
+const currency3="INR";
+const currency4="EUR";
+const currency5="RUB";
+
+
 time();
 const amount = document.getElementById("amount");
 const result = document.getElementById("output");
@@ -27,9 +32,9 @@ function Calculate(){
       document.getElementsByName('display')[0].value= output;   
 
        document.getElementById("rateshow1").innerText=`1 ${currencyOne} = ${rate(currencyTwo).toFixed(4)} ${currencyTwo}`;
-       document.getElementById("rateshow2").innerText=`1 ${currency2} = ${rate(currency3).toFixed(4)} ${currency3}`;
-       document.getElementById("rateshow3").innerText=`1 ${currency2} = ${rate(currency5).toFixed(4)} ${currency5}`;
-       document.getElementById("rateshow4").innerText=`1 ${currency6} = ${rate(currency3).toFixed(4)} ${currency3}`;
+       document.getElementById("rateshow2").innerText=`1 ${currencyOne} = ${rate(currency3).toFixed(4)} ${currency3}`;
+       document.getElementById("rateshow3").innerText=`1 ${currencyOne} = ${rate(currency4).toFixed(4)} ${currency4}`;
+       document.getElementById("rateshow4").innerText=`1 ${currencyOne} = ${rate(currency5).toFixed(4)} ${currency5}`;
 
     
      });
