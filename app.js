@@ -15,7 +15,7 @@ const url = 'https://v6.exchangerate-api.com/v6/0265b98fdb7079c748595f24/latest/
 function Calculate(){
       const currencyOne= firstCurrency.value; 
       const currencyTwo = secondCurrency.value;
-      const amountt = amount.value;
+     
 
      
       fetch(url + currencyOne) 
@@ -27,9 +27,9 @@ function Calculate(){
         return value;
       };
        
-      const output =(amountt*rate(currencyTwo)).toFixed(4);
+      const output =(amount.value*rate(currencyTwo)).toFixed(4);
      
-      document.getElementsByName('display')[0].value= output;   
+          document.getElementById('output').value= output;   
 
        document.getElementById("rateshow1").innerText=`1 ${currencyOne} = ${rate(currencyTwo).toFixed(4)} ${currencyTwo}`;
        document.getElementById("rateshow2").innerText=`1 ${currencyOne} = ${rate(currency3).toFixed(4)} ${currency3}`;
@@ -69,6 +69,7 @@ function Swap(){
     const Temp= firstCurrency.value;
       firstCurrency.value = secondCurrency.value;
       secondCurrency.value= Temp;
+       amount.value=output.value;
       Calculate();
 }
 
