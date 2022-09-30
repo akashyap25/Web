@@ -337,7 +337,7 @@ p{
 
 #amount{
    font-size: 3rem;
-   width: 50%;
+   width: 100%;
    border-top: transparent;
    border-left: transparent;
    border-right: transparent;
@@ -356,7 +356,7 @@ p{
 #first-cur{
     font-size: 3rem;
     width: 100%;
-    
+     text-align: center;
    margin-right: 10px;
    margin-bottom: 20px;
 
@@ -374,7 +374,7 @@ p{
 #second-cur{
     font-size: 3rem;
     width: 100%;
-   
+    text-align: center;
    
    margin-right: 10px;
    margin-bottom: 20px;
@@ -393,7 +393,7 @@ p{
 }
 #output{
     font-size: 3rem;
-    width: 50%;
+    width: 100%;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
@@ -422,8 +422,8 @@ p{
    
 }
 #rateshow1{
-    font-size: 1.25rem;
-    margin-top: 30px;
+    font-size: 1rem;
+    margin-top: 25px;
 }
 
 #swap{
@@ -439,7 +439,7 @@ p{
 .rateshow-bottom{
     display: flex;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #fff;
     margin: 0;
     margin-left: 30px;
@@ -447,13 +447,13 @@ p{
 
 }
 #rateshow2{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 #rateshow3{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 #rateshow4{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 
@@ -479,7 +479,7 @@ p{
 }
 
 .copyright{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 2em;
 
     padding-top: 150px;
